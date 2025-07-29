@@ -15,7 +15,7 @@ pipeline{
         }
         stage("Checkout from SCM"){
             steps{
-                git branch: 'main', url: 'https://github.com/dmancloud/complete-prodcution-e2e-pipeline'
+                git branch: 'main', url: 'https://github.com/YuzheZhang0/complete-prodcution-e2e-pipeline'
             }
         }
         stage("Build Application"){
